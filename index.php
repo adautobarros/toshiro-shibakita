@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Exemplo PHP</title>
+<title>Iniciando dados apartir do PHP</title>
 </head>
 <body>
 
@@ -11,7 +11,7 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 
 
-echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
+echo 'Versao PHP: ' . phpversion() . '<br>';
 
 $servername = "54.234.153.24";
 $username = "root";
@@ -25,7 +25,7 @@ $link = new mysqli($servername, $username, $password, $database);
 
 /* check connection */
 if (mysqli_connect_errno()) {
-    printf("Connect failed: %s\n", mysqli_connect_error());
+    printf("Connect failed2: %s\n", mysqli_connect_error());
     exit();
 }
 
